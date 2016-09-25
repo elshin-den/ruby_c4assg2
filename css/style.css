@@ -1,0 +1,45 @@
+header .navbar {
+  background-color: orange;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  text-shadow: 1px 1px 1px #222;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+  background-color: cyan;
+  border: solid 1px green;
+}
+
+#nav-list {
+  background-color: #orange;
+}
+
+#nav-list a {
+  text-align: center;
+  color: #951C49;
+  height: 30px;
+}
+
+#nav-list a span {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: Papyrus, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.jumbotron {
+  margin-top: 25px;
+  padding-top: 10px;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-top: 70px;
+  }
+}

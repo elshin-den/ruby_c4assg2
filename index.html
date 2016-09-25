@@ -1,27 +1,108 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <title>Boostrap Starter Page</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
 <body>
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top visible-sm visible-md visible-lg">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    	<div class="navbar-brand">
+    		<a href="index.html">
+    			<h1>Food, LLC</h1>
+    		</a>
+    	</div>
+    </div>
+  </div>
+  </nav>
+  <nav class="navbar navbar-default visible-xs">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    	<div class="navbar-brand">
+    		<a href="index.html">
+    			<h1>Food, LLC</h1>
+    		</a>
+    	</div>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
 
-  <h1>Hello Coursera!</h1>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="collapsable-nav">
+      <ul id="nav-list" class="nav navbar-nav hidden-sm hidden-md hidden-lg">
+        <li>
+          <a href="#chicken">
+            <span>Chicken</span>
+          </a>
+          <hr>
+        </li>
+        <li>
+          <a href="#beef">
+            <span>Beef</span>
+          </a>
+          <hr>
+        </li>
+          <li>
+          <a href="#sushi">
+            <span>Sushi</span>
+          </a>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</header>
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
+<div id="heading" class="container">
+	<h1 class="text-center">
+		Our Menu
+	</h1>
+</div>
+
+<div class="container-fluid">
+  <div class="jumbotron col-xs-12">
+  <h3 id="chicken" class="text-center">Chicken</h3>
+    <p>Preheat the oven to 425 degrees.</p>
+<p>Sprinkle the inside cavity of each game hen with salt and pepper. Insert one slice of prosciutto, two sprigs of rosemary and one crushed whole clove of garlic inside each bird. Truss the birds with string and sprinkle with salt and pepper.</p>
+<p>Pour the melted butter into a metal baking dish and turn the trussed birds in it to coat well. Arrange the birds on their backs and scatter the giblets around them. Place the baking dish on the stove and bring the butter to the sizzling point.</p>
+<p>Place the dish in the oven and bake 15 minutes.</p>
+<p>Turn the hens on their sides and bake 15 minutes longer, basting occasionally.</p>
+<p>Turn the hens to the opposite side and continue baking, basting occasionally, about 10 minutes longer.</p>
+<p>Arrange the hens on their backs and bake 5 minutes longer, basting often.</p>
+<p>Remove the birds to a serving dish. Pour most of the fat from the pan. Add the chicken broth, place the pan on the stove and stir to dissolve the brown particles that cling to the bottom of the pan. Untruss the birds. Pour the sauce over the birds and serve them hot or cold.</p>
+
+<h3 id="beef" class="text-center">
+	Beef
+</h3>
+<p>Preheat the oven to 425 degrees.</p>
+<p>Sprinkle the inside cavity of each game hen with salt and pepper. Insert one slice of prosciutto, two sprigs of rosemary and one crushed whole clove of garlic inside each bird. Truss the birds with string and sprinkle with salt and pepper.</p>
+<p>Pour the melted butter into a metal baking dish and turn the trussed birds in it to coat well. Arrange the birds on their backs and scatter the giblets around them. Place the baking dish on the stove and bring the butter to the sizzling point.</p>
+<p>Place the dish in the oven and bake 15 minutes.</p>
+<p>Turn the hens on their sides and bake 15 minutes longer, basting occasionally.</p>
+<p>Turn the hens to the opposite side and continue baking, basting occasionally, about 10 minutes longer.</p>
+<p>Arrange the hens on their backs and bake 5 minutes longer, basting often.</p>
+<p>Remove the birds to a serving dish. Pour most of the fat from the pan. Add the chicken broth, place the pan on the stove and stir to dissolve the brown particles that cling to the bottom of the pan. Untruss the birds. Pour the sauce over the birds and serve them hot or cold.</p>
+
+<h3 id="sushi" class="text-center">Sushi</h3>
+<p>In a bowl, whisk together eggs, mirin and soy sauce. Heat oil in an 8" square metal non-stick baking pan on medium heat, by placing pan directly on stove element. Use heat-proof tongs to hold the pan.</p>
+
+<p>Pour half the egg mixture into a pan. Allow edges of egg mixture to set, then, using a spatula, fold egg from top third and bottom third of omelette into the middle of the pan. You will end up with three layers of omelette in the middle of the pan. Use a spatula to press gently on omelette to compress layers.</p>
+<p>Pour in remainder of egg mixture and repeat process. You should end up with a little layered "loaf" of omelette in the centre of the pan. Remove from heat.</p>
+
+<p>Transfer omelette to chopping board. Allow to cool 5 minutes. Trim uneven edges off and slice omelette into about 30 neat, thin slices.</p>
+  </div>
+  </div>
+
+	<script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
